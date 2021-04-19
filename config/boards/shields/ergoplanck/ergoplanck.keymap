@@ -44,7 +44,7 @@
 // |         |         |    {    |    }    |         |                   |         |         |         |         |         |
 // |         |         |         |   CMD   |         |  LSHFT  |         |         |   ALT   |         |         |         |
             bindings = <
-    &kp Q     &none    &kp LBKT     &kp RBKT     &none                               &reset    &bootloader  &none     &none      &kp BSPC    
+    &kp GRAVE &none    &kp LBKT     &kp RBKT     &none                               &reset    &bootloader  &none     &none      &kp BSPC    
     &none     &kp LT   &kp LPAR     &kp RPAR     &kp GT                              &kp LEFT  &kp UP       &kp DOWN  &kp RIGHT  &kp RET 
     &none     &none    &kp LBRC     &kp RBRC     &none                               &none     &none        &none     &none      &none
     &none     &none    &none        &kp LGUI     &mo 3    &kp SPACE    &none         &trans    &none        &none     &none      &none
