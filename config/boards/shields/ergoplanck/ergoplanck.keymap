@@ -44,10 +44,10 @@
 // |         |         |    {    |    }    |         |                   |         |         |         |         |         |
 // |         |         |         |   CMD   |         |  LSHFT  |         |         |   ALT   |         |         |         |
             bindings = <
-    &kp GRAVE &none    &kp LBKT     &kp RBKT     &none                               &reset    &bootloader  &none     &none      &kp BSPC    
-    &none     &kp LT   &kp LPAR     &kp RPAR     &kp GT                              &kp LEFT  &kp UP       &kp DOWN  &kp RIGHT  &kp RET 
-    &none     &none    &kp LBRC     &kp RBRC     &none                               &none     &none        &none     &none      &none
-    &none     &none    &none        &kp LGUI     &mo 3    &kp SPACE    &none         &trans    &none        &none     &none      &none
+    &kp GRAVE &none    &kp LBKT     &kp RBKT     &none                               &none     &none      &none     &none      &kp BSPC    
+    &none     &kp LT   &kp LPAR     &kp RPAR     &kp GT                              &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp RET 
+    &none     &none    &kp LBRC     &kp RBRC     &none                               &none     &none      &none     &none      &none
+    &none     &none    &none        &kp LGUI     &mo 3    &kp SPACE    &none         &trans    &none      &none     &none      &none
             >;
 
         };
@@ -57,12 +57,12 @@
 // |    F1   |    F2   |    F3   |    F4   |    F5   |                   |    F6   |   F7    |   F8    |    F9   |   F10   |
 // |   bdown |  bup    |   ALT   |   prev  |   next  |                   |   play  |   mute  |  vdown  |   vup   |   F11   |
 // |   bt1   |    bt2  |   bt3   |    bt4  |    bt5  |                   | btclear |         | btprev  |  btnext |   F12   |
-// |         |         |         |         |         |         |         |         |         |         |         |         |
+// |         |         |         |  RESET  |         |         |         |         |  BOOT   |         |         |         |
             bindings = <
     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                            &kp F6      &kp F7      &kp F8        &kp F9        &kp F10    
     &kp C_BRI_DN  &kp C_BRI_UP  &kp LALT      &kp C_PREV    &kp C_NEXT                        &kp C_PP    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp F11 
     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &bt BT_CLR  &none       &bt BT_PRV    &bt BT_NXT    &kp F12
-    &none         &none         &none         &none         &trans        &none    &none      &trans      &none       &none         &none         &none
+    &none         &none         &none         &reset        &trans        &none    &none      &trans      &bootloader &none         &none         &none
             >;
 
         };
