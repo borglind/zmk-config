@@ -41,7 +41,7 @@ jobs:
       - name: ErgoPlanck Kconfig file
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
-        run: cp build/zephyr/zmk.uf2 ergoplanck.uf2
+        run: cp build/zephyr/zmk.uf2 ergoplanck_nice_nano.uf2
       - name: Archive (ErgoPlanck)
         uses: actions/upload-artifact@v2
         with:
