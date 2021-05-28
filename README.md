@@ -14,6 +14,8 @@
 
 ## Right layer (layer 2)
 
-http://www.keyboard-layout-editor.com/#/gists/491e08d69d96b4b304f060f4b6dc3996
+![layer 0](https://github.com/borglind/zmk-config/blob/master/assets/ergoplanck-layer-2.png?raw=true)
+
+[Link](http://www.keyboard-layout-editor.com/#/gists/491e08d69d96b4b304f060f4b6dc3996)
 
 ## Bottom layer (layer 3)
